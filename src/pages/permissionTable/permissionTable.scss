@@ -1,0 +1,73 @@
+.container{
+  margin: 1.5rem 4rem 1rem 18rem;
+}
+
+table{
+  margin: 2rem 0;
+  width: 100rem;
+  line-height: 2.8rem;
+
+  thead{
+    tr{
+      th{
+        font-size:1.3rem;
+      }
+    }
+  }
+  
+  tbody{
+    .first{
+      background: rgb(204, 200, 200);
+    }
+    .second{
+      background: rgb(228, 223, 223);
+    }
+    tr{
+      
+      th{
+        padding-left: 1rem;
+        text-align: left;
+        font-size:1.1rem;
+        font-family: 'Roboto';
+        font-weight: 500; 
+      }
+      .title{
+        font-weight: 700;
+        font-size:1.3rem;
+      }
+     
+      td{
+        text-align: center;
+
+        input:checked{
+          background-color: #323333;
+        }
+       
+      }
+    }
+  }
+
+}
+td {
+  width: 15rem;
+}
+ .btn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  button{
+    color: white;
+    background: #6B7375;
+    border-radius: 200px;
+    width: 17rem;
+    height: 3rem;
+    border: none;
+  }
+  button:hover{
+    color:#e8e9e9;
+    background: black;
+  }
+  
+}
+

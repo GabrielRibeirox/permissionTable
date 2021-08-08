@@ -19,8 +19,16 @@ table{
     .first{
       background: rgb(204, 200, 200);
     }
+    .first:hover{
+      transition: 0.3s;
+      background: rgb(175, 171, 171);
+    }
     .second{
       background: rgb(228, 223, 223);
+    }
+    .second:hover{
+      transition: 0.3s;
+      background: rgb(204, 199, 199);
     }
     tr{
       
